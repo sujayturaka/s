@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 28px;
+}
+
+.btn-info:hover
+{
+    background-color: rgb(255, 0, 0);
+}
+
+canvas
+{
+    animation-name: redstone;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes redstone
+{
+    from{box-shadow: 1px 1px 38px rgb(17, 0, 255)}
+    to {box-shadow: 1px 1px 38px rgb(0, 255, 128)};
+}
